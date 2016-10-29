@@ -128,7 +128,7 @@ ExView插件本地安装文件为epk格式，需用ExView自带文件管理器�
 	ExView.modules.rulefind({  
 		query:true,  
 		str:result,  
-		selector:".test li:child(3)",  
+		selector:".test li:nth-child(3)",  
 		successfn:function(rr, arr, i, result){  
 			//rr类型为HTMLObj  
 			//rr为匹配到当前指针的项  
