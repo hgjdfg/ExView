@@ -68,7 +68,7 @@
 			var notificationtitle=((ExView.version!=newestversion)?"ExView版本更新通知":"ExView通知");
 			var notificationcontent=((ExView.version!=newestversion)?"Gentle 发布 ExView "+newestversion+"<br>"+newestversioninfo:notificationinfo);
 			var notificationfn=function(){
-				ExView.modules.pluginpage.init(1);
+				//ExView.modules.pluginpage.init(1);
 			};		
 			if((localStorage.ExView_NotificationId!=notificationid||ExView.version!=newestversion)&&localStorage.ExView_Licence){
 				ExView.fw.alert(notificationcontent+'<div><style>.modal.modal-in .modal-text{overflow:auto;overflow-y:auto;overflow-x:hidden;}</style></div>',notificationtitle,function(){
