@@ -167,6 +167,12 @@ ExView.Plugins({
 							result: result,
 							header: header
 						})
+					},
+					showinfo: {
+						text: '正在加载...' + ((args.page > 1) ? '<br>第' + args.page + '页' : ''),
+						name: '【' + args.title + '】',
+						title: args.title,
+						img: args.img
 					}
 				}
 			},
@@ -303,7 +309,7 @@ ExView.Plugins({
 				}
 			},
 			infoloader: false,
-			infofinder: function(args) {
+			infofinder: false/*function(args) {
 				return {
 					json: true,
 					str: getstr(/_BFD.BFD_INFO\s*=\s*(.*?)\s*;/g, getresult(args.result)),
@@ -326,7 +332,7 @@ ExView.Plugins({
 						return true
 					}
 				}
-			}
+			}*/
 		},
 		parseflag: {
 			loader: function(args) {

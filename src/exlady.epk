@@ -445,7 +445,7 @@ ExView.Plugins({
 					timeout: 120,
 					nativerequest: pluginfo(args.plugin).nativeres,
 					header: {
-						"Cookie": pluginfo.requestcookie
+						"Cookie": pluginfo(args.plugin).requestcookie
 					},
 					successfn: function(result, header) {
 						if (result) {
@@ -532,7 +532,7 @@ ExView.Plugins({
 					timeout: 120,
 					nativerequest: pluginfo(args.plugin).nativeres,
 					header: {
-						"Cookie": pluginfo.requestcookie
+						"Cookie": pluginfo(args.plugin).requestcookie
 					},
 					successfn: function(result, header) {
 						if (result) {
