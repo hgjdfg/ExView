@@ -1,9 +1,9 @@
 (function(){
 	//初始化设置
 	var notificationid="20161001";
-	var newestversion="2.2.7";
+	var newestversion="2.2.8";
 	var notificationinfo="声明：ExView是一个浏览器应用，如果你发现有侵权资源，请不要找我，去找相关站点，你们反编译可以看见ExView就是一个基于WebView的套壳浏览器，你们总不能说浏览器变换一下页面界面就侵权吧！<br>备注:安卓4.0-4.4，请去网盘下载高性能版或使用ExView+,4.4以上WebView性能低下的ROM系统也去下载ExView+！<br>通告：新架构2.2已经不兼容2.2以下的来源，请更新应用版本至2.2以上，和更新所有来源至2.2以上！";
-	var newestversioninfo="1.修复有下载项目情况下阅读下一章会失败BUG<br>2.修复一些强制图库模式下排版混乱BUG<br>3.新加图库模式下的卡片样式";
+	var newestversioninfo="1.解决已下载项目切换章节失败bug<br>2.修复收藏丢失bug<br>3.修复返回主页失败bug<br>4.增加目录视图模式<br>5.增加图片视图浏览";
 	var updatepath=iscrosswalk()?'http://www.coolapk.com/apk/com.gentle.exview.plus':'http://www.coolapk.com/apk/com.gentle.exview';//'https://www.pgyer.com/exview';
 	var getdms=function(flag){
 		var x=flag.x;
