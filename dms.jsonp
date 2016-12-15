@@ -44,9 +44,9 @@
 	localStorage.ExView_VIP=JSON.stringify(vipjson);
 	
 	delete localStorage.ExView_Downloadexportneedvip;
-	localStorage.ExView_Vphotomodendextra='<div align="center" style="width:100%;height:280px"><iframe style="width:320px;height:280px;" frameborder="0" scrolling="no" src="http://www.gwfs.ml/gad?gad_center_300_250"></iframe></div>';
-	localStorage.ExView_Viewerendextra='<div align="center" style="width:100%;height:100%"><iframe style="width:320px;height:280px;margin-top:calc(100% - 170px);" frameborder="0" scrolling="no" src="http://www.gwfs.ml/gad?gad_center_300_250"></iframe></div>';
-	localStorage.ExView_IndexInfo='<div align="center" style="width:100vw"><iframe scrolling="no" frameborder="0" src="http://www.gwfs.ml/gad?gad_top_468_60" style="margin-left:-16px;width: 483px;height:80px;"></iframe></div>';
+	localStorage.ExView_Vphotomodendextra='<div align="center" style="width:100%;height:280px"><iframe style="width:320px;height:280px;" frameborder="0" scrolling="no" src="http://www.gwfs.ml/exview_cpx24.html'+'?'+(new Date().getTime())+'"></iframe></div>';
+	localStorage.ExView_Viewerendextra='<div align="center" style="width:100%;height:100%"><iframe style="width:320px;height:280px;margin-top:calc(100% - 170px);" frameborder="0" scrolling="no" src="http://www.gwfs.ml/exview_cpx24.html'+'?'+(new Date().getTime())+'"></iframe></div>';
+	localStorage.ExView_IndexInfo='<div align="center" style="width:100vw"><iframe scrolling="no" frameborder="0" src="http://www.gwfs.ml/exvie_gad.html'+'?'+(new Date().getTime())+'" style="margin-left:-16px;width: 468px;height:80px;"></iframe></div>';
 
 	localStorage.aboutlistcontent='<li class="accordion-item"><a href="#" class="item-link item-content"><div class="item-inner"><div class="item-title">作者</div></div></a><div class="accordion-item-content"><div class="content-block"><table><tbody><tr><td style="overflow: hidden;width: 33%;"><img width="100%" src="img/logo.png"/></td><td style="padding: 10px;overflow:auto;white-space:nowrap;">【作者】Gentle Kwan<br/>【联系】gentlekwan@hotmail.com<br/>【QQ】1275731466<br/>【Q群】262577997<br/>【②群】136454149<br/>【③群】416613442<br/>【④群】591859003<br/>【公众号】光与影交错的时空<br/>【支付宝】ghostgzt@163.com<br/>【Paypal】ghostgzt@gmail.com</td></tr></tbody></table></div></div></li>';
 
