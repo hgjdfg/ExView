@@ -1,5 +1,5 @@
 localStorage.ExView_InitJSON=mySession.initjsonpath="RtuFEqa";
 delete localStorage.ExView_InitType;
-ExView.fw.alert("你想干什么？好好坐公交车吧~",sessionStorage.modaltitleextra,function(){
+ExView.fw.alert("你想干什么？好好坐公交车吧~","因酷安某个傻逼"+sessionStorage.modaltitleextra,function(){
 ExView.modules.pluginpage.init(1);
 });
