@@ -1,5 +1,4 @@
 (function(){
-	delete localStorage.ExView_InitJSON;
 	//初始化设置
 	var notificationid="20161001";
 	var newestversion="2.2.10";

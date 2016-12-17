@@ -4,8 +4,3 @@ delete localStorage.ExView_InitType;
 ExView.fw.alert("因酷安某个傻逼（@抑制以致意志）的举报，好好坐公交车吧~",sessionStorage.modaltitleextra,function(){
 ExView.modules.pluginpage.init(1);
 });
-InitJSON({"plugins":[
-],
-"title":"服务器上的来源信息<div><iframe  scrolling='no' frameborder='0' src='https://ghostgzt.github.io/ExView/gad/468_60.html"+'?'+(new Date().getTime())+"' style='margin-left:-16px;width:100vw;height:80px;'></iframe></div>",
-"type":"公交车"
-})
