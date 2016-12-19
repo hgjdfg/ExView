@@ -1,7 +1,7 @@
 delete localStorage.ExView_InitJSON;
 mySession.initjsonpath="RtuFEqa";
 delete localStorage.ExView_InitType;
-ExView.fw.alert("因酷安某个傻逼（@抑制以致意志）的举报，好好坐公交车吧~<br>已捐赠的老司机，凭10+捐赠凭据找作者！",sessionStorage.modaltitleextra,function(){
+ExView.fw.alert("好好坐公交车吧~<br>已捐赠的老司机，凭10+捐赠凭据找作者！",sessionStorage.modaltitleextra,function(){
 ExView.modules.pluginpage.init(1);
 });
  
