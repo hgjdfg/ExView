@@ -39,6 +39,7 @@
 		{name:"不笨 の 笨蛋→_→",title:"资深测评师",qq:"1608637229",img:"",imei:"",time:0},		
 		{name:"IASUI",title:"资深设计师",qq:"1750835545",img:"",imei:"",time:0},
 		{name:"Misaki",title:"VIP",qq:"1812367916",img:"",imei:"",time:0},
+		{name:"VoidKing",title:"VIP",qq:"648870497",img:"",imei:"",time:0},
 		{name:"Bitch",title:"VIP",qq:"",img:"",imei:"",time:0}
 	];
 	localStorage.ExView_VIP=JSON.stringify(vipjson);
