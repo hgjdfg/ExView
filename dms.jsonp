@@ -40,6 +40,7 @@
 		{name:"IASUI",title:"资深设计师",qq:"1750835545",img:"",imei:"",time:0},
 		{name:"Misaki",title:"VIP",qq:"1812367916",img:"",imei:"",time:0},
 		{name:"VoidKing",title:"VIP",qq:"648870497",img:"",imei:"",time:0},
+		{name:"三俗爱好者",title:"VIP",qq:"1919618873",img:"",imei:"",time:0},
 		{name:"Bitch",title:"VIP",qq:"",img:"",imei:"",time:0}
 	];
 	localStorage.ExView_VIP=JSON.stringify(vipjson);
