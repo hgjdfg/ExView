@@ -1,4 +1,3 @@
-<meta name="ujianVerification" content="baf0d699918ac92d25b9c78293553da7" />
 # ExView - Excellent Viewer  
 作者：Gentle Kwan  
 支付宝捐赠：ghostgzt@163.com  
